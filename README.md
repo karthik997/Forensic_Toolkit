@@ -53,6 +53,26 @@ These tools could be used to implement as well as reveal any hidden messages.One
 **Deepsound is a Windows based application, which can be downloaded from Internet.(Pssss.. Just check my Tool_Vault maybe you can Find one ;-) 
 
 
+## Tool dealing with Memory Dumps(Analysing hidden data or malicious activity):
+
+Volatility is an open source memory forensics framework for incident response and malware analysis. It is written in Python and supports Microsoft Windows, Mac OS X, and Linux.
+
+To download volatility just type in the terminal  **sudo apt-get install volatility**
+
+## Tools dealing with Network Packet captures(Analysing network activity):
+
+|Tool| Description | Usage|
+|----|-------------|------|
+|Wireshark| Wireshark is a free and open source packet analyzer. It is used for network troubleshooting, analysis, software and communications protocol development | wireshark filename.pcap|
+|Tcpdump| tcpdump is a common packet analyzer that runs under the command line. It allows the user to display TCP/IP and other packets being transmitted or received over a network to which the computer is attached | tcpdump -options |
+|Network Miner| NetworkMiner is a Network Forensic Analysis Tool (NFAT) for Windows. NetworkMiner can be used as a passive network sniffer/packet capturing tool in order to detect operating systems, sessions, hostnames, open ports etc. without putting any traffic on the network | GUI application|
+
+**Network Miner is a GUI Application which can be downloaded from Internet Or just check my Vault... :-)
+
+
+
+
+
 
 
 
