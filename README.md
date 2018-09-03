@@ -26,7 +26,7 @@ These are some tools which detect if any stegnano activity is being done on any 
 |stegbreak | JPG | stegbreak -t o -f wordlist.txt -filename|
 |stegsolve | All image format | *Detail is mentioned below* |
 
-** First install the jar package of stegsolve and then use it as follows: *java -jar stegsolve * in Terminal. 
+**First install the jar package of stegsolve and then use it as follows: [java -jar stegsolve] in Terminal. 
 ** Make sure you install the required java package also  
 
 ## Steganography Application Tools: 
@@ -42,7 +42,15 @@ These tools could be used to implement as well as reveal any hidden messages.One
 |LSBSteg| PNG,BMP | LSBSteg encode -i cover.png -o stego.png -f secret.txt | LSBSteg decode -i stego.png -o output.txt |
 
 
+## Tools dealing with Audio files(Embedding and Revealing Data):
 
+| Tool | Description | Usage|
+|------|-------------|------|
+|Audacity| This is a great tool in analysing, modifying and revealing any data present inside audio, mostly used in analysing audio files| audacity -filename| 
+|Sonic Visualiser| Yet another similar tool like Audacity, which also cud be used in investigating audio files| sonic-visualiser -filename|
+|Deepsound| This is a tool which is used to hide/reveal any data in audio file using a password| It is a Windows apllication |
+
+**Deepsound is a Windows based application, which can be downloaded from Internet.(Pssss.. Just check my Tool_Vault maybe you can Find one ;-) 
 
 
 
