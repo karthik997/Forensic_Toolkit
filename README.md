@@ -40,6 +40,9 @@ These tools could be used to implement as well as reveal any hidden messages.One
 |Outguess| JPG | outguess -k password -d secret.txt cover.jpg stego.jpg | outguess -r -k password stego.jpg output.txt |
 |Steghide| JPG,BMP,WAV | steghide embed -f -ef secret.txt -cf cover.jpg -p password -sf stego.jpg | steghide extract -sf stego.jpg -p password -xf output.txt | 
 |LSBSteg| PNG,BMP | LSBSteg encode -i cover.png -o stego.png -f secret.txt | LSBSteg decode -i stego.png -o output.txt |
+|mp3stego|Audio files| mp3stego-encode -E secret.txt -P password cover.wav stego.mp3 | mp3stego-decode -X -P password stego.mp3 out.txt | 
+|AudioStego| Audio files| hideme cover.mp3 secret.txt && mv ./output.mp3 stego.mp3 | hideme stego.mp3 -f && cat output.txt|
+|stegano|PNG| stegano-lsb hide --input cover.jpg -f secret.txt -e UTF-8 --output stego.png or stegano-red hide --input cover.png -m "secret msg" --output stego.png or stegano-lsb-set hide --input cover.png -f secret.txt -e UTF-8 -g $GENERATOR --output stego.png for various generators (stegano-lsb-set list-generators)| stegano-lsb reveal -i stego.png -e UTF-8 -o output.txt or stegano-red reveal -i stego.png or stegano-lsb-set reveal -i stego.png -e UTF-8 -g $GENERATOR -o output.txt|
 
 
 ## Tools dealing with Audio files(Embedding and Revealing Data):
@@ -49,6 +52,8 @@ These tools could be used to implement as well as reveal any hidden messages.One
 |Audacity| This is a great tool in analysing, modifying and revealing any data present inside audio, mostly used in analysing audio files| audacity -filename| 
 |Sonic Visualiser| Yet another similar tool like Audacity, which also cud be used in investigating audio files| sonic-visualiser -filename|
 |Deepsound| This is a tool which is used to hide/reveal any data in audio file using a password| It is a Windows apllication |
+
+**mp3stego and Audiostego are also tools which could be used for Audio data analysis.
 
 **Deepsound is a Windows based application, which can be downloaded from Internet.(Pssss.. Just check my Tool_Vault maybe you can Find one ;-) 
 
