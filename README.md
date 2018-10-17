@@ -1,5 +1,5 @@
 
-## THis contains the mostly used tools for forensic investigation
+## This contains the mostly used tools for forensic investigation
 *****************************************************************
 ## Tools used for Basic Analysis:
 
@@ -26,8 +26,9 @@ These are some tools which detect if any stegnano activity is being done on any 
 |stegbreak | JPG | stegbreak -t o -f wordlist.txt -filename|
 |stegsolve | All image format | *Detail is mentioned below* |
 
-**First install the jar package of stegsolve and then use it as follows: [java -jar stegsolve] in Terminal. 
-** Make sure you install the required java package also  
+**First install the jar package of stegsolve and then use it as follows: [java -jar stegsolve] in Terminal.**
+
+**Make sure you install the required java package also**
 
 ## Steganography Application Tools: 
 
@@ -53,9 +54,11 @@ These tools could be used to implement as well as reveal any hidden messages.One
 |Sonic Visualiser| Yet another similar tool like Audacity, which also cud be used in investigating audio files| sonic-visualiser -filename|
 |Deepsound| This is a tool which is used to hide/reveal any data in audio file using a password| It is a Windows apllication |
 
-**mp3stego and Audiostego are also tools which could be used for Audio data analysis.
+**mp3stego and Audiostego are also tools which could be used for Audio data analysis.**
 
-**Deepsound is a Windows based application, which can be downloaded from Internet.(Pssss.. Just check my Tool_Vault maybe you can Find one ;-) 
+**Deepsound is a Windows based application, which can be downloaded from Internet.**
+
+(Pssss.. Just check my Tool_Vault maybe you can find one) :grin: 
 
 
 ## Tool dealing with Memory Dumps(Analysing hidden data or malicious activity):
@@ -72,7 +75,7 @@ To download volatility just type in the terminal  **sudo apt-get install volatil
 |Tcpdump| tcpdump is a common packet analyzer that runs under the command line. It allows the user to display TCP/IP and other packets being transmitted or received over a network to which the computer is attached | tcpdump -options |
 |Network Miner| NetworkMiner is a Network Forensic Analysis Tool (NFAT) for Windows. NetworkMiner can be used as a passive network sniffer/packet capturing tool in order to detect operating systems, sessions, hostnames, open ports etc. without putting any traffic on the network | GUI application|
 
-**Network Miner is a GUI Application which can be downloaded from Internet Or just check my Vault... :-)
+**Network Miner is a GUI Application which can be downloaded from Internet Or just check my Vault...** :grin:
 
 ## Tools used for Disk-Image data Analysis:
 
@@ -84,7 +87,7 @@ To download volatility just type in the terminal  **sudo apt-get install volatil
 |Autopsy| Autopsy is computer software that makes it simpler to deploy many of the open source programs and plugins used in The Sleuth Kit. The graphical user interface displays the results from the forensic search of the underlying volume making it easier for investigators to flag pertinent sections of data| GUI Application|
 |OSForensics| OSForensics is a digital computer forensic application which lets you extract and analyse digital data evidence efficiently and with ease. It discovers, identifies and manages ie uncovers everything hidden inside your computer systems and digital storage devices. | GUI Application | 
 
-**Both Autopsy and OSForensics can be downloaded from Internet or check in my Vault!!!!!!! 
+**Both Autopsy and OSForensics can be downloaded from Internet or check in my Vault!!!!!!!** 
 
 
 
