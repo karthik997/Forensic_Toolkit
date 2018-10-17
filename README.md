@@ -26,9 +26,9 @@ These are some tools which detect if any stegnano activity is being done on any 
 |stegbreak | JPG | stegbreak -t o -f wordlist.txt -filename|
 |stegsolve | All image format | *Detail is mentioned below* |
 
-**First install the jar package of stegsolve and then use it as follows: [java -jar stegsolve] in Terminal. **
+**First install the jar package of stegsolve and then use it as follows: [java -jar stegsolve] in Terminal.**
 
-** Make sure you install the required java package also  **
+**Make sure you install the required java package also**
 
 ## Steganography Application Tools: 
 
@@ -56,7 +56,9 @@ These tools could be used to implement as well as reveal any hidden messages.One
 
 **mp3stego and Audiostego are also tools which could be used for Audio data analysis.**
 
-**Deepsound is a Windows based application, which can be downloaded from Internet.(Pssss.. Just check my Tool_Vault maybe you can Find one** :grin: 
+**Deepsound is a Windows based application, which can be downloaded from Internet.**
+
+(Pssss.. Just check my Tool_Vault maybe you can find one) :grin: 
 
 
 ## Tool dealing with Memory Dumps(Analysing hidden data or malicious activity):
@@ -73,7 +75,7 @@ To download volatility just type in the terminal  **sudo apt-get install volatil
 |Tcpdump| tcpdump is a common packet analyzer that runs under the command line. It allows the user to display TCP/IP and other packets being transmitted or received over a network to which the computer is attached | tcpdump -options |
 |Network Miner| NetworkMiner is a Network Forensic Analysis Tool (NFAT) for Windows. NetworkMiner can be used as a passive network sniffer/packet capturing tool in order to detect operating systems, sessions, hostnames, open ports etc. without putting any traffic on the network | GUI application|
 
-**Network Miner is a GUI Application which can be downloaded from Internet Or just check my Vault... ** :grin:
+**Network Miner is a GUI Application which can be downloaded from Internet Or just check my Vault...** :grin:
 
 ## Tools used for Disk-Image data Analysis:
 
