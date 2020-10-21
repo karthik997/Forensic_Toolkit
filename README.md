@@ -1,7 +1,6 @@
 
 ## This contains the mostly used tools for forensic investigation
-*****************************************************************
-## Tools used for Basic Analysis:
+## Tools used for Basic Analysis::
 
 Whenever you get any file, first do the initial analysis using these command line tools. 
 
